@@ -71,6 +71,9 @@
     <Content Include="Web.config" />
     <Content Include="EJ2a.aspx" />
     <Content Include="EJ2b.aspx" />
+    <Content Include="EJ4a.aspx" />
+    <Content Include="EJ4b.aspx" />
+    <Content Include="EJ4c.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EJ1.aspx.cs">
@@ -94,6 +97,27 @@
     </Compile>
     <Compile Include="EJ2b.aspx.designer.cs">
       <DependentUpon>EJ2b.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EJ4a.aspx.cs">
+      <DependentUpon>EJ4a.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EJ4a.aspx.designer.cs">
+      <DependentUpon>EJ4a.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EJ4b.aspx.cs">
+      <DependentUpon>EJ4b.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EJ4b.aspx.designer.cs">
+      <DependentUpon>EJ4b.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EJ4c.aspx.cs">
+      <DependentUpon>EJ4c.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EJ4c.aspx.designer.cs">
+      <DependentUpon>EJ4c.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
