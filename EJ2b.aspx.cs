@@ -11,7 +11,18 @@ namespace Treabajo2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            string Nombre;
+            string Apellido;
+            string Zona;
+            Nombre = Request.QueryString["Nom"];
+            Apellido = Request.QueryString["ape"];
+            Zona = Request.QueryString["zn"];
 
+            lblNomFinal.Text = Nombre;
+            lblApeFinal.Text = Apellido;
+            lblZonaFinal.Text = Zona;
+
+            
         }
 
         protected void BulletedList1_Click(object sender, BulletedListEventArgs e)

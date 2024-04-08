@@ -14,9 +14,15 @@ namespace Treabajo2
 
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void btnResumen_Click(object sender, EventArgs e)
         {
-
+            List<string> selected = new List<string>();
+            foreach (ListItem item in clMaterias.Items)
+            {
+                if (item.Selected) selected.Add(item.ToString());
+            }
+            Response.Redirect("EJ2b.aspx?Nom=" + tbNombre.Text + "&ape=" + tbApellido.Text + "&zn=" + lsCiudad.SelectedValue + "&selected=" + selected);
         }
+
     }
 }

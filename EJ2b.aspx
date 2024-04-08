@@ -12,19 +12,19 @@
             <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="XX-Large" Text="Resumen"></asp:Label>
         </div>
         <asp:Label ID="Label2" runat="server" Text="Nombre: "></asp:Label>
-        <asp:Label ID="Label5" runat="server" Text="nom"></asp:Label>
+        <asp:Label ID="lblNomFinal" runat="server" Text="nom"></asp:Label>
         <p>
             <asp:Label ID="Label3" runat="server" Text="Apellido: "></asp:Label>
-            <asp:Label ID="Label6" runat="server" Text="ape"></asp:Label>
+            <asp:Label ID="lblApeFinal" runat="server" Text="ape"></asp:Label>
         </p>
         <p>
             <asp:Label ID="Label4" runat="server" Text="Zona: "></asp:Label>
-            <asp:Label ID="Label8" runat="server" Text="zn"></asp:Label>
+            <asp:Label ID="lblZonaFinal" runat="server" Text="zn"></asp:Label>
         </p>
         <p>
             <asp:Label ID="Label9" runat="server" Text="Los temas elegidos son:"></asp:Label>
         </p>
-        <asp:BulletedList ID="BulletedList1" runat="server" OnClick="BulletedList1_Click">
+        <asp:BulletedList ID="listTemasFinal" runat="server" OnClick="BulletedList1_Click">
         </asp:BulletedList>
     </form>
 </body>
