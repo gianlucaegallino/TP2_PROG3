@@ -67,18 +67,34 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Index.aspx" />
+    <Content Include="EJ1.aspx" />
     <Content Include="Web.config" />
+    <Content Include="EJ2a.aspx" />
+    <Content Include="EJ2b.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Index.aspx.cs">
-      <DependentUpon>Index.aspx</DependentUpon>
+    <Compile Include="EJ1.aspx.cs">
+      <DependentUpon>EJ1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Index.aspx.designer.cs">
-      <DependentUpon>Index.aspx</DependentUpon>
+    <Compile Include="EJ1.aspx.designer.cs">
+      <DependentUpon>EJ1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="EJ2a.aspx.cs">
+      <DependentUpon>EJ2a.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EJ2a.aspx.designer.cs">
+      <DependentUpon>EJ2a.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EJ2b.aspx.cs">
+      <DependentUpon>EJ2b.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EJ2b.aspx.designer.cs">
+      <DependentUpon>EJ2b.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

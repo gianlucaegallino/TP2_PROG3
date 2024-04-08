@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="Treabajo2.Index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="EJ1.aspx.cs" Inherits="Treabajo2.Index" %>
 
 <!DOCTYPE html>
 
