@@ -96,12 +96,12 @@ namespace Treabajo2
         protected global::System.Web.UI.WebControls.Label Label9;
 
         /// <summary>
-        /// listTemasFinal control.
+        /// lblItems control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.BulletedList listTemasFinal;
+        protected global::System.Web.UI.WebControls.Label lblItems;
     }
 }

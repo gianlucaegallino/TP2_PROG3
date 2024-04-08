@@ -14,13 +14,16 @@ namespace Treabajo2
             string Nombre;
             string Apellido;
             string Zona;
+            string Materias;
             Nombre = Request.QueryString["Nom"];
             Apellido = Request.QueryString["ape"];
             Zona = Request.QueryString["zn"];
+            Materias = Request.QueryString["selected"];
 
             lblNomFinal.Text = Nombre;
             lblApeFinal.Text = Apellido;
             lblZonaFinal.Text = Zona;
+            lblItems.Text = Materias;
 
             
         }

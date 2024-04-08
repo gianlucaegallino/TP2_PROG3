@@ -24,8 +24,7 @@
         <p>
             <asp:Label ID="Label9" runat="server" Text="Los temas elegidos son:"></asp:Label>
         </p>
-        <asp:BulletedList ID="listTemasFinal" runat="server" OnClick="BulletedList1_Click">
-        </asp:BulletedList>
+        <asp:Label ID="lblItems" runat="server"></asp:Label>
     </form>
 </body>
 </html>

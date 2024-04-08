@@ -16,12 +16,17 @@ namespace Treabajo2
 
         protected void btnResumen_Click(object sender, EventArgs e)
         {
-            List<string> selected = new List<string>();
-            foreach (ListItem item in clMaterias.Items)
+            string materias = "";
+            foreach (ListItem lst in clMaterias.Items)
             {
-                if (item.Selected) selected.Add(item.ToString());
+                if (lst.Selected == true)
+                {
+                    materias += lst.Text + ", ";
+                }
+
             }
-            Response.Redirect("EJ2b.aspx?Nom=" + tbNombre.Text + "&ape=" + tbApellido.Text + "&zn=" + lsCiudad.SelectedValue + "&selected=" + selected);
+
+            Response.Redirect("EJ2b.aspx?Nom=" + tbNombre.Text + "&ape=" + tbApellido.Text + "&zn=" + lsCiudad.SelectedValue + "&selected=" + materias);
         }
 
     }
