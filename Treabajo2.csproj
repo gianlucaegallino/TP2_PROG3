@@ -75,6 +75,7 @@
     <Content Include="EJ4b.aspx" />
     <Content Include="EJ4c.aspx" />
     <Content Include="EJ3.aspx" />
+    <Content Include="EJ5.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EJ1.aspx.cs">
@@ -126,6 +127,13 @@
     </Compile>
     <Compile Include="EJ3.aspx.designer.cs">
       <DependentUpon>EJ3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EJ5.aspx.cs">
+      <DependentUpon>EJ5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EJ5.aspx.designer.cs">
+      <DependentUpon>EJ5.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
