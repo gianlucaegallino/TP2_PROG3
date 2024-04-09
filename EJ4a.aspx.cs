@@ -18,12 +18,10 @@ namespace Treabajo2
             if (inputUsuario == "claudio" && inputClave == "casas")
             {
                 Response.Redirect("EJ4b.aspx");
-
             }
             else
             {
                 Response.Redirect("EJ4c.aspx");
-
             }
         }
     }
